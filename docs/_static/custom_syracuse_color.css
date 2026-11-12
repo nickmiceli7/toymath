@@ -1,0 +1,16 @@
+:root {
+  --su-orange: #F76900;
+  --su-navy: #000E54;
+}
+
+/* Orange stripe across the top of every page */
+body {
+  border-top: 6px solid var(--su-orange);
+}
+
+/* Orange headings */
+div.body h1,
+div.body h2,
+div.body h3 {
+  color: var(--su-orange);
+}
